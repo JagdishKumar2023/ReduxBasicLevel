@@ -17,6 +17,7 @@ const mapStateToProps = (state) => {
     count: state.count,
   };
 };
+
 const mapDispatchToProps = {
   increment,
   decrement,
