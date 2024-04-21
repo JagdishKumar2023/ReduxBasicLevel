@@ -1,10 +1,9 @@
-// src/components/Form.js
 import React, { useState } from "react";
 import { connect } from "react-redux";
 import { updateForm } from "./../Form/action";
 
 const Form = ({ formData, updateForm }) => {
-  const [submittedData, setSubmittedData] = useState(null);
+  const [submittedData, setSubmittedData] = useState([]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;

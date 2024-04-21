@@ -1,12 +1,11 @@
-import "./App.css";
-import Form from "./Form/Form";
+import React from "react";
+import AddPostForm from "./Blog/AddFormPost";
 
-function App() {
-  return (
-    <div className="App">
-      <Form />
-    </div>
-  );
-}
+const App = () => (
+  <div>
+    <h1>Redux Blog</h1>
+    <AddPostForm />
+  </div>
+);
 
 export default App;
